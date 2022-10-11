@@ -1,0 +1,154 @@
+*{
+  /* margin: 200vh; */
+  /* padding: 0; */
+}
+.test{
+  display: inline-block;
+  padding: auto;
+  /* transform: rotate(50deg); */
+  /* transform: scale(2,3);   x ,y */
+  /* transform: scaleX(2); */
+  /* transform: scaleY(3); */
+  /* transform: skew(30deg);-x,y */
+  /* transform: translate(50px, 50px); */
+  /* transform: translateX(50px); */
+  /* transform: translateY(50px); */transition-property: width;
+
+
+}
+.test img{
+  
+  width: 100px; 
+  height: auto;
+  border-radius: 100px;
+}
+.test img:hover{
+  width: 400px;
+  height: auto;
+  cursor: pointer;
+  border-radius: 100px;
+  transition-duration: 3s ;
+  transition-delay: 0.2s;
+  transition-timing-function: lineear;
+}
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+.test2{
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  transition: all .5s linear;
+}
+.test2:hover{
+  width: 250px;
+  height: 250px;
+  background-color: black;
+  transform: rotate(180deg);
+  border-radius: 50%;
+  /* transition-duration: 2s; */
+}
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+.traffic{
+  width: 100%;
+  height: auto;
+}
+.traffic-light{
+  margin: auto;
+  width: 100px;
+  height: 300px;
+  border-radius: 50px;
+  background-color: gray;
+}
+.traffic-lights{
+  padding-top: 25px;
+}
+.redlight{
+  width: 70px;
+  height: 70px;
+  background-color: black;
+  border-radius: 50px;
+   margin: 0px 15px 0 15px;
+}
+.yellowlight{
+  width: 70px;
+  height: 70px;
+  background-color: black;
+  border-radius: 50px;
+  margin: 20px 15px 0 15px;
+}
+.greenlight{
+  width: 70px;
+  height: 70px;
+  background-color: black;
+  border-radius: 50px;
+   margin: 20px 15px 0 15px;
+}
+.redlight:hover{
+  background-color: red;
+  box-shadow: 0px 0px 30px 10px rgba(255, 0, 0, 0.7);
+}
+.yellowlight:hover{
+  background-color: yellow;
+  box-shadow: 0px 0px 30px 10px rgba(221, 255, 2, 0.7);
+}
+.greenlight:hover{
+  background-color:rgb(1, 255, 1);
+  box-shadow: 0px 0px 30px 10px rgba(21, 255, 0, 0.7);
+}
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+.card{
+  margin: auto;
+  width: 250px;
+  height: 400px;
+  position: relative;
+  margin-top: 100px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.card img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  transition: all, .5s;
+}
+h6, p{
+  position: absolute;
+  bottom: 0;
+  padding: 0 20px;
+}
+h6{
+  color: white;
+  /* bottom: 10%; */
+  font-size: 14px;
+  transition: all,.5s;
+}
+p{
+  color: white;
+  bottom: 0;
+  display: none;  
+  transition: all, .5s  ;
+}
+.card:hover{
+  transform: translateY(-30px);
+  transition-duration: 0.5s;
+  cursor: pointer;
+  box-shadow: 0 40px 40px rgb(0 0 0 / 50%);
+
+}
+.card:hover img{
+  opacity: .4;
+  transform: scaley(1.1);
+}
+.card:hover h6{
+  color: black;
+  bottom: 10%;
+  transition-duration: .3s;
+}
+.card:hover p{
+  display: block;
+  bottom: 5%;
+  color: black;
+}

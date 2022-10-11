@@ -1,0 +1,10 @@
+.box{
+  margin: auto;
+  margin-top: 300px;
+  width: 300px;
+  height: 300px;
+  border-radius: 200px;
+  background-color: red;
+  box-shadow:  10px 10px 0px 0px rgba(0, 0, 0, 0.5);
+  /* x-offset, y-offset, blur, spread */
+}
