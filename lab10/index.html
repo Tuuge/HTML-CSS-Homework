@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/lab10/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <h1>welcome</h1>
+  <div class="divider"></div>
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="/image/463481.jpg" alt="avengers01">
+      </div>
+      <div class="swiper-slide">
+        <img src="/image/arcane-jinx-fanart-d7.jpg" alt="arcanejinx">
+      </div>
+      <div class="swiper-slide">
+        <img src="/image/arcane-jinx-league-of-legend-4k-n7.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="/image/avengers-endgame-logo-minimalist-uhdpaper.com-8K-70.jpg" alt="">
+      </div>
+      <!-- <div class="swiper-slide">Slide 5</div>
+        <div class="swiper-slide">Slide 6</div>
+        <div class="swiper-slide">Slide 7</div>
+        <div class="swiper-slide">Slide 8</div>
+        <div class="swiper-slide">Slide 9</div> -->
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+
+
+  <div class="swiper mySwiper logo">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="/image/463481.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="/image/arcane-jinx-fanart-d7.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="/image/avengers-endgame-logo-minimalist-uhdpaper.com-8K-70.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="/image/avengers-endgame-logo-minimalist-uhdpaper.com-8K-70.jpg" alt="">
+      </div>
+      <div class="swiper-slide">Slide 5</div>
+      <div class="swiper-slide">Slide 6</div>
+      <div class="swiper-slide">Slide 7</div>
+      <div class="swiper-slide">Slide 8</div>
+      <div class="swiper-slide">Slide 9</div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+
+
+
+  <!-- Swiper JS -->
+
+
+
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      cssMode: true,
+      loop: true,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+      mousewheel: true,
+      keyboard: true,
+    });
+  </script>
+
+
+
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper1", {
+      slidesPerView: 3,
+      loop: ture,
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+      },
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,236 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    background-color: black;
+    padding: 10px 0;
+    color: white;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header .container ul {
+    list-style-type: none;
+}
+
+.header .container ul li {
+    display: inline-block;
+}
+
+.header ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 0 15px;
+}
+
+.header ul li a:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.home {
+    height: 100vh;
+    background-color: #faf4e1;
+    scroll-behavior: smooth;
+}
+
+.home img {
+    height: 100%;
+    width: 100%;
+    object-fit: coverr;
+}
+
+.about {
+    height: 100vh;
+    background-color: #fabc41;
+}
+
+.about .page-about {
+    margin: 0 400px;
+}
+
+.about .page-about p img {
+    display: inline-block;
+    width: 200px;
+    height: auto;
+}
+
+.about .page-about p {
+    display: inline-block;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.8em;
+    color: #333;
+}
+
+.news {
+    width: 100%;
+    height: 100vh;
+    background-color: #ec9454;
+}
+
+.news .page-news {
+    margin: 0 400px;
+}
+
+.news-item {
+    display: inline-block;
+}
+
+.page-news .image {
+
+    width: 25%;
+}
+
+.news-item .texts {
+    width: 75%;
+    display: inline-block;
+}
+
+.news .page-news img {
+    width: 260px;
+    height: auto;
+    display: inline-block;
+}
+
+.news .item1 {
+    width: 100%;
+    height: 250px;
+    /* margin-bottom: 50px; */
+}
+
+.news .item2 {
+    width: 100%;
+    height: 200px;
+    /* margin-bottom: 50px; */
+}
+
+.contact {
+    height: 100vh;
+    background-color: #c72767;
+
+}
+
+.page-contact {
+    width: 1500px;
+    margin: 0 200px;
+    background-color: green;
+
+}
+
+.contact .holboo-barih {
+    height: 100vh;
+    width: 50%;
+    display: inline-block;
+}
+
+.contact .holboo-barih h2 {
+    text-align: center;
+}
+
+.divider {
+    width: 100px;
+    height: 2px;
+    background: #314186;
+    margin: 0 auto 30px;
+}
+
+.contact ul li {
+    font-size: 15px;
+    list-style-type: none;
+    padding: 10px 0;
+    line-height: 2;
+}
+
+
+
+
+.sanal-huselt {
+    text-align: center;
+    width: 50%;
+}
+
+.form-page {
+    width: 100%;
+    height: 100vh;
+    display: inline-block;
+}
+
+.form-page input,
+textarea {
+    padding: 10px;
+    border: 1px solid #cccccc;
+    width: 600px;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-page button {
+    padding: 10px;
+    width: 625px;
+    background-color: #314186;
+    color: white;
+    border: none;
+
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

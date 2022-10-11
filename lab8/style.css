@@ -1,0 +1,43 @@
+/* position
+static
+relative
+absolute
+fixed
+sticky
+*/
+.test {
+    width: 300px;
+    height: 500px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+.test2 {
+    width: 300px;
+    height: 1000px;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+}
+
+.test3 {
+    position: relative;
+    width: 400px;
+    height: 300px;
+}
+
+.test3 img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+
+}
+
+.test3 h5 {
+    position: absolute;
+    bottom: 0;
+    padding: 40px;
+
+}

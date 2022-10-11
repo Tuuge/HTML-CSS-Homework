@@ -1,0 +1,158 @@
+body {
+    background-color: #FCFCFD;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+input {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.container {
+    border-top-style: inset;
+    border-right-style: outset;
+    border-bottom-style: outset;
+    border-left-style: inset;
+    position: static;
+    background-color: #FFFFFF;
+    width: 430px;
+    height: 556.94px;
+    border-radius: 10px;
+    margin: 200px 750px;
+
+}
+
+.container .inside-container {
+    margin: 0px
+}
+
+/* .container .inside-container .header p{
+    color: #6c727b;
+  } */
+.header {
+    margin: 0 15px;
+    padding: 15px 0;
+    /* display: inline-block; */
+}
+
+.header h1 {
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+    ;
+}
+
+.f-body {
+    margin: 10px 10px;
+}
+
+.f-body .fname {
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 43%;
+    height: 20px;
+}
+
+.f-body .lname {
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 43%;
+    height: 20px;
+}
+
+p {
+    color: #6c727b;
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+    ;
+}
+
+.f-body .number-or-email {
+    width: 389px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.f-body .password {
+    width: 389px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.f-body .birthday-date {
+
+
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 134px;
+    height: 36px;
+}
+
+.f-body p {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.f-body .gender {
+    display: inline-block;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+    width: 122px;
+    font-size: 18px;
+}
+
+.f-body .gendername {
+    display: inline-block;
+}
+
+.f-body .genderradio {
+    display: inline-block;
+}
+
+.footer {
+    margin: 10px 10px;
+}
+
+
+.footer p {
+    font-size: 11px;
+    margin-top: 10px;
+}
+
+.footer-two p {
+    color: white;
+}
+
+.footer-two button {
+    background-color: #00A400;
+    border: none;
+    border-radius: 5px;
+    width: 194px;
+    height: 36px;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    margin: 0px 110px;
+    margin-top: 20px;
+}
+
+.footer .footer-one b {
+    color: #788EB9;
+}

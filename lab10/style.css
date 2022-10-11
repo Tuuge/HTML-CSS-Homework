@@ -1,0 +1,63 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: white !important;
+}
+
+.logo img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.divider {
+    background-color: red;
+    width: 80px;
+    height: 3px;
+    margin-bottom: 20px;
+    margin-top: -20px;
+}
+
+h1:hover {
+    color: blue;
+    cursor: pointer;
+    border-bottom: 1px solid black;
+    display: inline-block;
+}
